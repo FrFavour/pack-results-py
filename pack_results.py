@@ -143,7 +143,7 @@ def main():
             print(f"注意：已检查 {total_folders_checked} 个文件夹，但均未找到名为 result 的子文件夹。")
             print("请确保：")
             print("1. 您在正确的父目录中运行此脚本。")
-            print("2. 目标子文件夹中确实存在名为 result 的文件夹。")
+            print("2. 目标子文件夹中确实存在名为 result 的文件夹，并且 result 文件夹不是空的。")
     
     print()
 
